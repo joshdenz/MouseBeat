@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div id="toolbar">
+        <div style="-webkit-app-region: drag" class="hor-spacer">&nbsp;</div>
+        <div id="tool-btns">
+            <div class="btn" id="btn-minimize">&nbsp;</div>
+            <div class="btn" id="btn-exit">&nbsp;</div>
+        </div>
+    </div>
+    <div class="pic-container">
+        <div class="title-box">
+            <h1 id="title">MouseBeat</h1>
+        </div>
+        <div id="main-ctrls">
+            <audio src="" id="sound"></audio>
+            <label class="button button-upload" id='fileSelect'>
+                 Choose Your File
+            </label>
+            <label class="button button-upload" id="start">
+                Start!
+            </label>
+        </div>
+        <div>
+            <label class="button button-stop" id="stopBtn">
+                Stop
+            </label>
+        </div>
+
+        <script type="text/javascript" src="./mainWindow.js"></script>
+    </div>
+</body>
+
+</html>

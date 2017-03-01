@@ -1,0 +1,127 @@
+/*
+ *  MouseBeat
+ *  Main Stylesheet
+ *
+ */
+/*Styles*/
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: bario;
+    line-height: 1.15em;
+}
+body{
+    background-color: #403b3a;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+@font-face {
+    font-family: bario;
+    src: url('../resources/bario.otf');
+}
+/*Utility styles*/
+.pic-container {
+    background-image: url('../resources/paris2.png');
+    max-width: 350px;
+    max-height: 370px;
+    min-width: 350px;
+    min-height: 370px;
+    margin: 0 auto;
+    position: fixed;
+    left: 7px;
+}
+
+.hor-spacer {
+    position: fixed;
+    left: 0px;
+    min-width: 305px;
+    min-height: 25px;
+    -webkit-app-region: drag;
+}
+
+#title {
+    font-size: 3em;
+}
+
+.title-box {
+    position: fixed;
+    left: 17%;
+}
+#tool-btns {
+    position: fixed;
+    top: 1px;
+    right: 0px; 
+}
+
+#toolbar {
+    height: 30px;
+}
+#main-ctrls {
+    position: fixed;
+    bottom: 100px;
+    left: 50px;
+    max-width: 250px;
+}
+/*Button Styles*/
+#btn-exit {
+    background-color: #403b3a;
+    transition: all 0.2s ease;
+    background-image: url('../resources/x1.png');
+    min-height: 20px;
+    min-width: 20px;    
+    max-width: 20px;
+    max-height: 20px;
+    cursor: pointer;
+    float: left;
+    margin: 5px;
+}
+
+#btn-minimize {
+    background-color: #403b3a;
+    transition: all 0.2s ease;
+    background-image: url('../resources/minimize.png');
+    min-height: 20px;
+    min-width: 20px;    
+    max-width: 20px;
+    max-height: 20px;
+    float: left;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#btn-exit:hover {
+    /*background-color: #8c8381;*/
+    background-color: #706968;
+}
+
+#btn-minimize:hover {
+    /*background-color: #8c8381;*/
+    background-color: #706968;
+}
+
+.button-upload {
+    background-color: #403b3a;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: white;
+}
+
+.button-stop {
+    position: fixed;
+    bottom: 50px;
+    left: 150px;
+    background-color: #403b3a;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
