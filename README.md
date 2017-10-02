@@ -5,7 +5,7 @@ MouseBeat is an Electron application which plays a selected audio file and alter
 ## Installation
 
 Clone or Download this repository.
-Then:
+Then navigate to the downloaded project folder and:
 ```
 npm install
 ```

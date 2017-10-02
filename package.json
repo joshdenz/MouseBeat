@@ -1,18 +1,18 @@
 {
   "name": "mousebeat",
   "version": "1.0.0",
-  "description": "",
+  "description": "An application that plays a music file and alters it's playback speed based on your mouse movement.",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "author": "",
+  "author": "Joshua Denzau",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^1.4.12",
     "electron-packager": "^8.5.1"
   },
   "dependencies": {
     "electron": "^1.4.12"
-  }
+  },
+  "homepage": "https://github.com/joshdenz/MouseBeat"
 }
